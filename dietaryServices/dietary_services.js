@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', function() {
     const button = document.getElementById('submitRole');
     const input = document.getElementById('roleInput');
@@ -9,6 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
         output.textContent = message;
     });
 });
+
 function getAccessMessage(role) {
     switch (role) {
         case 'Empleado':
