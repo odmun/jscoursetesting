@@ -1,4 +1,4 @@
-function groceryTracker() {
+const groceryTracker = () =>{
     const grocery1 = parseFloat(document.getElementById('grocery1').value) || 0;
     const grocery2 = parseFloat(document.getElementById('grocery2').value) || 0;
     const grocery3 = parseFloat(document.getElementById('grocery3').value) || 0;

@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-function getAccessMessage(role) {
+const getAccessMessage = (role) => {
     switch (role) {
         case 'Empleado':
             return 'Tiene acceso a los Servicios Dietéticos.';
